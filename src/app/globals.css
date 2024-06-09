@@ -1,3 +1,179 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @font-face {
+  font-family: "Soliden";
+  src: url("/fonts/SolidenTrial-Black.otf") format("otf");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Soliden";
+  src: url("/fonts/SolidenTrial-BlackCondensed.otf") format("otf");
+  font-weight: 900;
+  font-style: condensed;
+}
+
+@font-face {
+  font-family: "Soliden";
+  src: url("/fonts/SolidenTrial-BlackCondObliq.otf") format("otf");
+  font-weight: 900;
+  font-style: condOblique;
+}
+
+@font-face {
+  font-family: "Soliden";
+  src: url("/fonts/SolidenTrial-BlackExpanded.otf") format("otf");
+  font-weight: 900;
+  font-style: expanded;
+}
+
+@font-face {
+  font-family: "Soliden";
+  src: url("/fonts/SolidenTrial-BlackExpObliq.otf") format("otf");
+  font-weight: 900;
+  font-style: expObliq;
+}
+
+@font-face {
+  font-family: "Soliden";
+  src: url("/fonts/SolidenTrial-BlackOblique.otf") format("otf");
+  font-weight: 900;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: "Soliden";
+  src: url("/fonts/SolidenTrial-Bold.otf") format("otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Soliden";
+  src: url("/fonts/SolidenTrial-BoldCondensed.otf") format("otf");
+  font-weight: 700;
+  font-style: condensed;
+}
+
+@font-face {
+  font-family: "Soliden";
+  src: url("/fonts/SolidenTrial-BoldCondObliq.otf") format("otf");
+  font-weight: 700;
+  font-style: condObliq;
+}
+
+@font-face {
+  font-family: "Soliden";
+  src: url("/fonts/SolidenTrial-BoldExpanded.otf") format("otf");
+  font-weight: 700;
+  font-style: expanded;
+}
+
+@font-face {
+  font-family: "Soliden";
+  src: url("/fonts/SolidenTrial-ExpObliq.otf") format("otf");
+  font-weight: 700;
+  font-style: expObliq;
+}
+
+@font-face {
+  font-family: "Soliden";
+  src: url("/fonts/SolidenTrial-BoldOblique.otf") format("otf");
+  font-weight: 700;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: "Soliden";
+  src: url("/fonts/SolidenTrial-Condensed.otf") format("otf");
+  font-weight: 500;
+  font-style: condensed;
+}
+
+@font-face {
+  font-family: "Soliden";
+  src: url("/fonts/SolidenTrial-CondensedOblique.otf") format("otf");
+  font-weight: 500;
+  font-style: condOblique;
+}
+
+@font-face {
+  font-family: "Soliden";
+  src: url("/fonts/SolidenTrial-Expanded.otf") format("otf");
+  font-weight: 500;
+  font-style: expanded;
+}
+
+@font-face {
+  font-family: "Soliden";
+  src: url("/fonts/SolidenTrial-ExpandedOblique.otf") format("otf");
+  font-weight: 500;
+  font-style: expOblique;
+}
+
+@font-face {
+  font-family: "SolidenLight";
+  src: url("/fonts/SolidenTrial-Light.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SolidenLight";
+  src: url("/fonts/SolidenTrial-LightCondensed.otf") format("otf");
+  font-weight: 300;
+  font-style: condensed;
+}
+
+@font-face {
+  font-family: "SolidenLight";
+  src: url("/fonts/SolidenTrial-LightCondObliq.otf") format("otf");
+  font-weight: 300;
+  font-style: condOblique;
+}
+
+@font-face {
+  font-family: "SolidenLight";
+  src: url("/fonts/SolidenTrial-LightExpanded.otf") format("otf");
+  font-weight: 300;
+  font-style: expanded;
+}
+
+@font-face {
+  font-family: "SolidenLight";
+  src: url("/fonts/SolidenTrial-LightExpOblique.otf") format("otf");
+  font-weight: 300;
+  font-style: expObliq;
+}
+
+@font-face {
+  font-family: "SolidenLight";
+  src: url("/fonts/SolidenTrial-LightOblique.otf") format("otf");
+  font-weight: 300;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: "SolidenOblique";
+  src: url("/fonts/SolidenTrial-Oblique.otf") format("otf");
+  font-weight: 400;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: "Soliden";
+  src: url("/fonts/SolidenTrial-Regular.otf") format("otf");
+  font-weight: 400;
+  font-style: normal;
+} */
+
+body {
+  background: rgba(255, 255, 255, 0.95);
+  background-image: url("../../public/assets/Rectanglemesh.png");
+  background-blend-mode: soft-light;
+  z-index: 10;
+  overflow-x: hidden;
+}
