@@ -1,7 +1,7 @@
 import Image from "next/image";
 import heroMain from "../../public/assets/heroIphones.png";
 import heroBelow from "../../public/assets/hero2.png";
-import Button from "./Button";
+import Button, { ButtonVariant } from "./Button";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { IoPlayCircleOutline } from "react-icons/io5";
 
@@ -33,13 +33,13 @@ const Home = () => {
                 <Button
                   text="Get Started"
                   pos="end"
-                  variant="filled"
+                  variant={ButtonVariant.Filled}
                   Icon={IoIosArrowRoundForward}
                 />
                 <Button
                   text="Watch Video"
                   pos="start"
-                  variant="ghost"
+                  variant={ButtonVariant.Ghost}
                   Icon={IoPlayCircleOutline}
                 />
               </div>

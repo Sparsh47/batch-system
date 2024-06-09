@@ -177,3 +177,10 @@ body {
   z-index: 10;
   overflow-x: hidden;
 }
+
+.banner {
+  background-image: url("../../public/assets/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
