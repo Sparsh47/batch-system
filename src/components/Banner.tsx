@@ -11,10 +11,10 @@ const Banner = () => {
       <div className="w-full h-screen flex items-center justify-center">
         <div className="banner container h-[80%] rounded-xl">
           <div className="w-full h-full flex flex-col justify-center p-20 gap-5">
-            <h1 className="capitalize text-white text-6xl font-bold">
+            <h1 className="capitalize text-white text-5xl xl:text-6xl font-bold">
               Ready to get started?
             </h1>
-            <p className="text-white font-light text-xl">
+            <p className="text-white font-light text-md xl:text-xl">
               Risus habitant leo egestas mauris diam eget morbi tempus
               vulputate.
             </p>

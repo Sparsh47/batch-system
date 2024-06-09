@@ -27,7 +27,7 @@ const Faq = () => {
   ];
 
   return (
-    <div className="w-full h-screen flex items-center justify-center">
+    <div className="w-full h-screen flex items-center justify-center my-20">
       <div className="container h-full flex flex-col justify-center gap-8">
         <div>
           <h3 className="uppercase text-red pb-1">FAQ</h3>

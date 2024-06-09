@@ -12,7 +12,9 @@ const Navbar = () => {
           <Image src={logo} alt="logo" />
           <div className="flex items-center gap-5 font-semibold">
             {links.map((link, index) => (
-              <div key={index}>{link}</div>
+              <div key={index} className="cursor-pointer">
+                {link}
+              </div>
             ))}
           </div>
         </div>

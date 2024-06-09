@@ -44,7 +44,7 @@ const Home = () => {
                 />
               </div>
             </div>
-            <div className="w-[80%] aspect-auto">
+            <div className="w-[80%] aspect-auto hidden xl:block">
               <Image
                 src={heroBelow}
                 alt="heroTwo"
