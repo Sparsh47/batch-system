@@ -1,6 +1,6 @@
 import Image from "next/image";
 import logo from "../../public/assets/logo.png";
-import Button from "./Button";
+import Button, { ButtonVariant } from "./Button";
 
 const Navbar = () => {
   const links = ["Home", "About Us", "Pricing", "Features"];
@@ -16,7 +16,7 @@ const Navbar = () => {
             ))}
           </div>
         </div>
-        <Button text="Download" variant="filled" />
+        <Button text="Download" variant={ButtonVariant.Filled} />
       </div>
     </div>
   );
